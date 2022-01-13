@@ -1,15 +1,10 @@
-import React from 'react';
-import { makeStyles } from '@mui/styles';
+import makeStyles  from '@mui/styles/makeStyles';
 
 export const useStyles = makeStyles({
     navbar:{
-        display: 'flex',
-        flexDirection: 'row',
-        // justifyContent: 'space-between',
+        backgroundColor: 'rgba(255,255,255,0.5)'
     },
     toolbar: {
-        display:'flex',
-        justifyContent: 'flex-end',
-        width: '400px'
+        color: 'black'
     }
 });
